@@ -1,0 +1,42 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+.env/
+fastapi-env/
+.venv/
+
+# Environment variables
+.env
+*.env
+
+# IDE & editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Mypy, Pytest, Coverage
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Compiled / build
+build/
+dist/
+*.egg-info/
+
+/fastapi-env
